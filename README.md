@@ -8,6 +8,8 @@
 [![Lint](https://github.com/Temperate-Designs/platformer-1/actions/workflows/lint.yml/badge.svg)](https://github.com/Temperate-Designs/platformer-1/actions/workflows/lint.yml)
 [![Flutter Testing](https://github.com/Temperate-Designs/platformer-1/actions/workflows/flutter.yaml/badge.svg)](https://github.com/Temperate-Designs/platformer-1/actions/workflows/flutter.yaml)
 
+## Introduction
+
 GEARS is a platformer Flutter project for Android which is basically a platform
 game where you maneuver through a machine in different levels by hopping on
 moving gears and other mechanical objects. The point of the game is to get to
