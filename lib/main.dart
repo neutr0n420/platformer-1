@@ -22,17 +22,22 @@ class MyGame extends FlameGame {
       Player()
         ..position = size / 2
         ..width = 50
-        ..height = 100
+        ..height = 50
         ..anchor = Anchor.center,
     );
   }
 }
 
 class Player extends PositionComponent {
-  static final _paint = Paint()..color = Colors.white;
+  static final _paint = Paint()..color = const Color.fromARGB(255, 158, 77, 39);
+  static final _outline = Paint()
+  ..color = const Color.fromARGB(99, 102, 255, 0)
+  ..style = PaintingStyle.stroke
+  ..strokeWidth = 10;
 
   @override
   void render(Canvas canvas) {
     canvas.drawRect(size.toRect(), _paint);
+    canvas.drawRect(size.toRect(), _outline);
   }
 }
